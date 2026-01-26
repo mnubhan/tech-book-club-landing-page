@@ -1,0 +1,8 @@
+@media screen and (width <= 320px){
+    body{
+        margin:2rem;
+    }
+    img{
+        border-radius: 2rem;
+    }
+}
