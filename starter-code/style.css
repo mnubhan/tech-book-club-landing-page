@@ -2,7 +2,7 @@
     body{
         margin:2rem;
     }
-    img{
+    .hero-image{
         border-radius: 2rem;
     }
 }
