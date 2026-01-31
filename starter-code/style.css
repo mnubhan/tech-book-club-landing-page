@@ -20,9 +20,26 @@ li {
   align-items: center;
 }
 
+.button--container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    border: solid black;
+    border-radius: 0.5rem;
+    gap: 1rem;
+}
+
+.header__testimonial--image {
+    height: 2rem;
+}
+
+
+
 @media screen and (width <= 320px) {
   body {
-    margin: 2rem;
+    margin: 1rem;
   }
 
   .hero-image {
