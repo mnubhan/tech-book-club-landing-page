@@ -35,7 +35,26 @@ li {
     height: 2rem;
 }
 
+.header__members {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    heigth: auto;
+}
 
+.header__rating--container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    .header__testimonial--texts {
+        margin: 0;
+    }
+}
+
+.header__testimonial--image {
+    height: 2.5rem;
+}
 
 @media screen and (width <= 320px) {
   body {
